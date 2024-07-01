@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+  }
+  
+  .sombra {
+    width: 250px;
+    height: 250px;
+    box-shadow: 40px 40px #75C8DA;
+    border-radius: 50%;
+    position: relative; /* Añadido */
+  }
+  
+  .puntos, .punto-dos, .punto-tres, .punto-cuatro, .punto-cinco,
+  .punto-seis, .punto-siete, .punto-ocho, .punto-nueve, .punto-diez, .punto-once {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute; /* Añadido */
+  }
+  
+  .puntos { top: 10%; left: 50%; transform: translate(-50%, -50%); }
+  .punto-dos { top: 20%; left: 60%; transform: translate(-50%, -50%); }
+  .punto-tres { top: 30%; left: 40%; transform: translate(-50%, -50%); }
+  .punto-cuatro { top: 40%; left: 70%; transform: translate(-50%, -50%); }
+  .punto-cinco { top: 50%; left: 30%; transform: translate(-50%, -50%); }
+  .punto-seis { top: 60%; left: 80%; transform: translate(-50%, -50%); }
+  .punto-siete { top: 70%; left: 20%; transform: translate(-50%, -50%); }
+  .punto-ocho { top: 80%; left: 90%; transform: translate(-50%, -50%); }
+  .punto-nueve { top: 90%; left: 10%; transform: translate(-50%, -50%); }
+  .punto-diez { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+  .punto-once { top: 20%; left: 80%; transform: translate(-50%, -50%); }
+  
